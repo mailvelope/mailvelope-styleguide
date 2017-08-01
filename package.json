@@ -1,0 +1,16 @@
+{
+  "name": "mailvelope_styleguide",
+  "version": "1.0.0",
+  "description": "Styleguide for the Mailvelope secure email communication web extension.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stripthis/mailvelope_styleguide.git"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
