@@ -1,52 +1,12 @@
 <html>
 <head>
-    <!--
-     - Mailvelope - secure email with OpenPGP encryption for Webmail
-     - Copyright (C) 2015 Mailvelope GmbH
-     -
-     - This program is free software: you can redistribute it and/or modify
-     - it under the terms of the GNU Affero General Public License version 3
-     - as published by the Free Software Foundation.
-     -
-     - This program is distributed in the hope that it will be useful,
-     - but WITHOUT ANY WARRANTY; without even the implied warranty of
-     - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-     - GNU Affero General Public License for more details.
-     -
-     - You should have received a copy of the GNU Affero General Public License
-     - along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    -->
-    <title data-l10n-id="options_title">Mailvelope Options</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap-sortable.css">
-    <link rel="stylesheet" href="../css/key-management.css">
+<?php  include(__DIR__ . '/includes/headers/meta.php');  ?>
 </head>
 <body data-mvelo="true">
 <div id="settingsPanel">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <div class="navbar-brand settings-logo"></div>
-            </div>
-            <div class="collapse navbar-collapse bs-navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li role="presentation" id="showKeyRing" class="active"><a href="#keyring" id="keyringButton" aria-controls="keyring" role="tab" data-toggle="tab" data-l10n-id="keyring_header" class="active">Key Management</a></li>
-                    <li role="presentation" id="showEncrypting"><a href="#encrypting" id="encryptingButton" aria-controls="encrypting" role="tab" data-toggle="tab" data-l10n-id="encrypting_home">File Encryption</a></li>
-                    <li role="presentation" id="showKeySettings"><a href="#settings" id="settingsButton" aria-controls="settings" role="tab" data-toggle="tab" data-l10n-id="options_home">Options</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://www.mailvelope.com/help" target="_blank" rel="noreferrer" data-l10n-id="options_docu">Documentation</a></li>
-                    <li><a href="https://www.mailvelope.com/about" target="_blank" rel="noreferrer" data-l10n-id="options_about">About</a></li>
-                    <!--li><div class="" id='secureCode'></div></li-->
-                </ul>
-            </div>
+            <?php  include(__DIR__ . '/includes/nav/primary_menu.php');  ?>
         </div>
     </div>
 </div>
@@ -54,24 +14,7 @@
     <div class="tab-content">
         <div class="tab-pane fade active in" role="tabpanel" id="keyring">
             <div class="col-md-3">
-                <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="keyringSwitcher" data-toggle="dropdown" aria-expanded="true" style="width: 100%; text-align: left; margin-bottom: 10px;">
-                        <span class="caret pull-right" id="keyringSwitcherCaret"></span>
-                        <span id="keyringSwitcherLabel">Mailvelope</span>
-                    </button>
-                    <ul class="dropdown-menu" role="menu" id="keyringList">
-                        <li role="presentation" class="flex-container">
-                            <a role="menuitem" tabindex="-1" class="flex-item keyRingName" data-primarykeyid="86DB2BDD17D334B1" data-keyringid="localhost|#|mailvelope">Mailvelope</a>
-                            <a class="btn btn-link pull-right flex-item deleteKeyRing" style="display: none;" data-keyringid="localhost|#|mailvelope"><span class="glyphicon glyphicon-trash"></span></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="list-group">
-                    <a class="list-group-item active" href="#displayKeys" data-toggle="tab" data-l10n-id="keyring_display_keys" id="displayKeysButton">Display Keys</a>
-                    <a class="list-group-item" href="#importKey" data-toggle="tab" data-l10n-id="keyring_import_keys" id="importKeyButton">Import Keys</a>
-                    <a class="list-group-item" href="#generateKey" data-toggle="tab" data-l10n-id="keyring_generate_key" id="generateKeyButton">Generate Key</a>
-                    <a class="list-group-item" href="#setupProvider" data-toggle="tab" data-l10n-id="keyring_setup" id="setupProviderButton">Setup</a>
-                </div>
+                <?php  include(__DIR__ . '/includes/nav/secondary_menu.php');  ?>
             </div>
             <div class="col-md-9">
                 <div class="tab-content jumbotron secureBackground" id="settingsArea">
