@@ -18,4 +18,3 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="../css/bootstrap-sortable.css">
-	<link rel="stylesheet" href="../css/key-management.css">

@@ -1,6 +1,7 @@
 <html>
 <head>
 <?php  include(__DIR__ . '/includes/headers/meta.php');  ?>
+    <link rel="stylesheet" href="../css/key-management.css">
 </head>
 <body data-mvelo="true">
 <div id="settingsPanel">

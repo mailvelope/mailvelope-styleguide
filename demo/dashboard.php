@@ -22,73 +22,46 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-default dashboard-item">
-                <div class="panel-body">
-                    <a href="#contacts">
-                        <i class="fa fa-list-alt"></i>
-                        <span>Manage contacts</span>
-                    </a>
-                </div>
-            </div>
+            <a class="dashboard-item" href="#">
+                <i class="fa fa-users"></i>
+                <span>Manage contacts</span>
+            </a>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-default dashboard-item">
-                <div class="panel-body">
-                    <a href="#encrypt">
-                        <i class="fa fa-files-o"></i>
-                        <span>Encrypt and decrypt files</span>
-                    </a>
-                </div>
-            </div>
+            <a class="dashboard-item" href="#">
+                <i class="fa fa-files-o"></i>
+                <span>Encrypt and decrypt files</span>
+            </a>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-default dashboard-item">
-                <div class="panel-body">
-                    <a href="#encrypt">
-                        <i class="fa fa-key"></i>
-                        <span>Manage keys</span>
-                    </a>
-                </div>
-            </div>
+            <a class="dashboard-item" href="#">
+                <i class="fa fa-key"></i>
+                <span>Manage keys</span>
+            </a>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-default dashboard-item">
-                <div class="panel-body">
-                    <a href="#encrypt">
-                        <i class="fa fa-eye"></i>
-                        <span>Security logs</span>
-                    </a>
-                </div>
-            </div>
+            <a class="dashboard-item" href="#">
+                <i class="fa fa-eye"></i>
+                <span>Security logs</span>
+            </a>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-default dashboard-item">
-                <div class="panel-body">
-                    <a href="#encrypt">
-                        <i class="fa fa-server"></i>
-                        <span>Manage providers</span>
-                    </a>
-                </div>
-            </div>
+            <a class="dashboard-item" href="#">
+                <i class="fa fa-server"></i>
+                <span>Manage providers</span>
+            </a>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-default dashboard-item">
-                <div class="panel-body">
-                    <a href="#encrypt">
-                        <i class="fa fa-question-circle"></i>
-                        <span>Help</span>
-                    </a>
-                </div>
-            </div>
+            <a class="dashboard-item" href="#">
+                <i class="fa fa-question-circle"></i>
+                <span>Help</span>
+            </a>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-default dashboard-item">
-                <div class="panel-body">
-                    <a href="#encrypt">
-                        <i class="fa fa-info-circle"></i>
-                        <span>About</span>
-                </div>
-            </div>
+            <a class="dashboard-item" href="#">
+                <i class="fa fa-info-circle"></i>
+                <span>About</span>
+            </a>
         </div>
     </div><!--/tab-content-->
     <footer class="row">
