@@ -29,7 +29,7 @@
 		$animated = true;
 	}
 	if($state=='setup') {
-		$height = 146;
+		$height = 147;
 	}
 	?>
 	<?php if ($animated == true): ?>

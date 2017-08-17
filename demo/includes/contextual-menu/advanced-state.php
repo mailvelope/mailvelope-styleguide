@@ -1,5 +1,5 @@
 <div class="header">
-	<a href="contextual-menu-wrapper.php?normal" id="mvelo-normal-options-button">Back</a>
+	<a href="contextual-menu-wrapper.php?normal" id="mvelo-normal-options-button"><i class="glyphicon glyphicon-chevron-left"></i> Back</a>
 </div>
 <ul class="contextual-menu">
 	<li role="presentation">

@@ -10,7 +10,7 @@
 }
 .contextual-menu-header .nav-right {
   float: right;
-  padding: 7px 0.6em 5px 0;
+  padding: 7px 0.6em 6px 0;
   font-size: 0.9em;
 }
 .contextual-menu-header .nav-right a {
@@ -59,7 +59,7 @@ ul.contextual-menu li a {
   transition: background-color 0.2s ease;
 }
 ul.contextual-menu li a p {
-  padding: 0 0.5em 0 0;
+  padding: 0 1em 0 0;
   margin: 0;
   font-size: 0.9em;
 }
