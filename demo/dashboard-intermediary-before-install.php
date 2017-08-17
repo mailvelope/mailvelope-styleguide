@@ -32,7 +32,7 @@
 			</a>
 		</div>
 		<div class="col-md-3">
-			<a class="dashboard-item" href="#">
+			<a class="dashboard-item" href="key-management.php">
 				<i class="fa fa-key"></i>
 				<span>Manage keys</span>
 			</a>
