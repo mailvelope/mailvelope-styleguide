@@ -6,6 +6,7 @@
 </head>
 <body data-mvelo="true">
 		<?php
+		include( __DIR__ . '/includes/contextual-menu/header.php' );
 		if (isset($_GET['advanced'])) {
 			include( __DIR__ . '/includes/contextual-menu/advanced-state.php' );
 		}

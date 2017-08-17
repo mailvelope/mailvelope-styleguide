@@ -15,3 +15,16 @@ It uses grunt, bootstrap and less.
 npm install
 grunt build
 ```
+
+## Pages available
+
+### Pre-installation
+* Contextual menu: {styleguide-base-url}/demo/contextual-menu.php?setup
+* Dashboard: {styleguide-base-url}/demo/dashboard-intermediary-before-install.php
+
+### Post-installation
+* Dashboard: {styleguide-base-url}/demo/dashboard.php
+* Contextual menu (animated): {styleguide-base-url}/demo/contextual-menu.php?animated
+* Contextual menu (static primary): {styleguide-base-url}/demo/contextual-menu.php
+* Contextual menu (static advanced): {styleguide-base-url}/demo/contextual-menu.php?advanced
+* Key management: {styleguide-base-url}/demo/key-management.php

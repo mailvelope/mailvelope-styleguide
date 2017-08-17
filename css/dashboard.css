@@ -269,6 +269,33 @@ textarea.form-control:focus {
   background-color: #f8f8f8;
   transition: background-color 0.3s ease;
 }
+.shepherd-active .shepherd-step {
+  z-index: 1042;
+  width: 27em;
+  font-size: 0.9em;
+}
+.shepherd-active header {
+  background: #f8f8f8 !important;
+}
+.shepherd-active header h3.shepherd-title {
+  font-weight: bold !important;
+}
+.shepherd-active .shepherd-target.shepherd-enabled {
+  position: relative;
+  background-color: white;
+  z-index: 1041;
+}
+.shepherd-active .shepherd-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  z-index: 1040;
+}
 /**
  * Copyright (C) 2016 Mailvelope GmbH
  * Licensed under the GNU Affero General Public License version 3

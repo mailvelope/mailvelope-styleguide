@@ -1,11 +1,5 @@
-<div class="contextual-menu-header clearfix">
-	<div class="mailvelope-logo"></div>
-	<div class="nav-right">
-		<a href="#">online help</a>
-	</div>
-</div>
 <div class="header">
-	<a href="contextual-menu-wrapper.php?normal">Back</a>
+	<a href="contextual-menu-wrapper.php?normal" id="mvelo-normal-options-button">Back</a>
 </div>
 <ul class="contextual-menu">
 	<li role="presentation">
@@ -35,5 +29,5 @@
 	</li>
 </ul>
 <div class="footer">
-	<a href="dashboard.php">All options</a>
+	<a href="dashboard.php" target="_parent">All options</a>
 </div>

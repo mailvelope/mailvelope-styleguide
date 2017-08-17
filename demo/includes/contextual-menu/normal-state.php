@@ -1,9 +1,3 @@
-<div class="contextual-menu-header clearfix">
-	<div class="mailvelope-logo"></div>
-	<div class="nav-right">
-		<a href="#">online help</a>
-	</div>
-</div>
 <ul class="contextual-menu">
 	<li role="presentation" class="item-big">
 		<a href="#" class="clearfix">
@@ -25,5 +19,5 @@
 	</li>
 </ul>
 <div class="footer">
-	<a href="contextual-menu-wrapper.php?advanced">Advanced options</a>
+	<a href="contextual-menu-wrapper.php?advanced" id="mvelo-advanced-options-button">Advanced options <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>

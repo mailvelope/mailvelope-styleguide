@@ -7,7 +7,10 @@
 <div id="settingsPanel">
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-            <?php  include(__DIR__ . '/includes/nav/primary_menu.php');  ?>
+            <?php
+            $activePrimarySection = 'keyring';
+            include(__DIR__ . '/includes/nav/primary_menu.php');
+            ?>
         </div>
     </div>
 </div>

@@ -20,11 +20,23 @@
 <div id="contextual-menu-wrapper">
 	<?php
 	$state = array_keys($_GET)[0];
+	$animated = false;
+	$height=300;
 	if (empty($state)) {
 		$state = 'normal';
 	}
+	if ($state == 'animated') {
+		$animated = true;
+	}
+	if($state=='setup') {
+		$height = 146;
+	}
 	?>
-	<iframe src="contextual-menu-wrapper.php?<?php echo $state; ?>" frameborder="0" marginheight="0" marginwidth="0" width="200" height="300"></iframe>
+	<?php if ($animated == true): ?>
+		<iframe src="contextual-menu-animated.php" frameborder="0" marginheight="0" marginwidth="0" width="200" height="300"></iframe>
+	<?php else: ?>
+		<iframe src="contextual-menu-wrapper.php?<?php echo $state; ?>" frameborder="0" marginheight="0" marginwidth="0" width="200" height="<?php echo $height; ?>"></iframe>
+	<?php endif; ?>
 </div>
 </body>
 </html>

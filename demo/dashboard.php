@@ -48,19 +48,13 @@
         <div class="col-md-3">
             <a class="dashboard-item" href="#">
                 <i class="fa fa-server"></i>
-                <span>Manage providers</span>
+                <span>Manage email providers</span>
             </a>
         </div>
         <div class="col-md-3">
             <a class="dashboard-item" href="#">
                 <i class="fa fa-question-circle"></i>
                 <span>Help</span>
-            </a>
-        </div>
-        <div class="col-md-3">
-            <a class="dashboard-item" href="#">
-                <i class="fa fa-info-circle"></i>
-                <span>About</span>
             </a>
         </div>
     </div><!--/tab-content-->

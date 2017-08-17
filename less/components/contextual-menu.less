@@ -1,5 +1,6 @@
 @side-padding: 0.6em;
 @select-transition: background-color 0.2s ease;
+@contextual-menu-width: 200px;
 
 .contextual-menu-header {
   padding:0.2em 0;
@@ -20,6 +21,22 @@
       color: @grey-dark;
     }
   }
+}
+
+.contextual-menu-container {
+  width:@contextual-menu-width;
+  overflow: hidden;
+  position: absolute;
+  width:@contextual-menu-width;
+}
+.contextual-menu-container-slide {
+  position: relative;
+  width:@contextual-menu-width * 2;
+  left:0;
+}
+.contextual-menu-wrapper {
+  width:@contextual-menu-width;
+  float: left;
 }
 
 ul.contextual-menu {

@@ -16,6 +16,20 @@
 .contextual-menu-header .nav-right a {
   color: #555555;
 }
+.contextual-menu-container {
+  overflow: hidden;
+  position: absolute;
+  width: 200px;
+}
+.contextual-menu-container-slide {
+  position: relative;
+  width: 400px;
+  left: 0;
+}
+.contextual-menu-wrapper {
+  width: 200px;
+  float: left;
+}
 ul.contextual-menu {
   padding: 0;
   margin: 0;
