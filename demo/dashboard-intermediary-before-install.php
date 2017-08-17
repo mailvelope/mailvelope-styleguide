@@ -46,7 +46,7 @@
 		<div class="col-md-3">
 			<a class="dashboard-item" href="#">
 				<i class="fa fa-eye"></i>
-				<span>Security logs</span>
+				<span>View security logs</span>
 			</a>
 		</div>
 		<div class="col-md-3">
