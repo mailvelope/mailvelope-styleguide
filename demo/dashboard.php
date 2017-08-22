@@ -22,21 +22,15 @@
             </div>
         </div>
         <div class="col-md-3">
-            <a class="dashboard-item" href="#">
-                <i class="fa fa-users"></i>
-                <span>Manage contacts</span>
+            <a class="dashboard-item" href="key-management.php">
+                <i class="fa fa-key"></i>
+                <span>Manage keys</span>
             </a>
         </div>
         <div class="col-md-3">
             <a class="dashboard-item" href="#">
                 <i class="fa fa-files-o"></i>
                 <span>Encrypt and decrypt files</span>
-            </a>
-        </div>
-        <div class="col-md-3">
-            <a class="dashboard-item" href="key-management.php">
-                <i class="fa fa-key"></i>
-                <span>Manage keys</span>
             </a>
         </div>
         <div class="col-md-3">
