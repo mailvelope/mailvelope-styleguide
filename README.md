@@ -27,4 +27,5 @@ grunt build
 * Contextual menu (animated): {styleguide-base-url}/demo/contextual-menu.php?animated
 * Contextual menu (static primary): {styleguide-base-url}/demo/contextual-menu.php
 * Contextual menu (static advanced): {styleguide-base-url}/demo/contextual-menu.php?advanced
+* Contextual menu (static advanced, variant with icons): {styleguide-base-url}/demo/contextual-menu.php?advanced-with-icons
 * Key management: {styleguide-base-url}/demo/key-management.php

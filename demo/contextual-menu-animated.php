@@ -8,7 +8,7 @@
 		$(document).ready(function() {
 			$('#mvelo-advanced-options-button').click(function(e) {
 				e.stopImmediatePropagation();
-				$('.contextual-menu-container-slide').animate({left: "-200px"}, 200);
+				$('.contextual-menu-container-slide').animate({left: "-230px"}, 200);
 				return false;
 			});
 			$('#mvelo-normal-options-button').click(function(e) {

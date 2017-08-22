@@ -10,6 +10,9 @@
 		if (isset($_GET['advanced'])) {
 			include( __DIR__ . '/includes/contextual-menu/advanced-state.php' );
 		}
+		elseif (isset($_GET['advanced-with-icons'])) {
+			include( __DIR__ . '/includes/contextual-menu/advanced-state-with-icons.php' );
+		}
 		elseif (isset($_GET['setup'])) {
 			include( __DIR__ . '/includes/contextual-menu/setup-state.php' );
 		}
