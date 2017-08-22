@@ -82,7 +82,7 @@
 		buttons: [
 			{
 				text: 'Got it!',
-				classes: 'shepherd-button-secondary',
+				classes: 'shepherd-button-primary',
 				action: tour.cancel
 			}
 		]
