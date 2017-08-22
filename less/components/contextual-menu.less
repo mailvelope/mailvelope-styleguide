@@ -1,6 +1,6 @@
 @side-padding: 0.6em;
 @select-transition: background-color 0.2s ease;
-@contextual-menu-width: 200px;
+@contextual-menu-width: 230px;
 
 .contextual-menu-header {
   padding:0.2em 0;
@@ -24,7 +24,6 @@
 }
 
 .contextual-menu-container {
-  width:@contextual-menu-width;
   overflow: hidden;
   position: absolute;
   width:@contextual-menu-width;
@@ -53,17 +52,20 @@ ul.contextual-menu {
 
         p {
           float: left;
-          width:80%;
+          padding-left:1%;
+          width:78%;
         }
         i.fa {
-          float: left;
+          text-align: center;
+          float: right;
           width: 20%;
-          font-size: 2.5em;
-          color: @grey-dark;
+          font-size: 2em;
+          color: @grey;
+          margin-top:.125em;
         }
       }
     }
-    
+
     a {
       padding: 0.72em @side-padding;
       border-top: 1px solid @grey-selected;
@@ -81,13 +83,17 @@ ul.contextual-menu {
         color: @grey-darker;
         background-color: @grey-light;
         text-decoration: none;
+
+        i.fa {
+          color:@grey-darker;
+        }
       }
     }
   }
 }
 
-div.footer,
-div.header {
+.footer,
+.header {
   a {
     border-top: 1px solid @grey-selected;
     background-color: @grey-light;

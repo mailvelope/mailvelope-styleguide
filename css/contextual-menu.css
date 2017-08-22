@@ -19,15 +19,15 @@
 .contextual-menu-container {
   overflow: hidden;
   position: absolute;
-  width: 200px;
+  width: 230px;
 }
 .contextual-menu-container-slide {
   position: relative;
-  width: 400px;
+  width: 460px;
   left: 0;
 }
 .contextual-menu-wrapper {
-  width: 200px;
+  width: 230px;
   float: left;
 }
 ul.contextual-menu {
@@ -43,13 +43,16 @@ ul.contextual-menu li.item-big a {
 }
 ul.contextual-menu li.item-big a p {
   float: left;
-  width: 80%;
+  padding-left: 1%;
+  width: 78%;
 }
 ul.contextual-menu li.item-big a i.fa {
-  float: left;
+  text-align: center;
+  float: right;
   width: 20%;
-  font-size: 2.5em;
-  color: #555555;
+  font-size: 2em;
+  color: #888;
+  margin-top: .125em;
 }
 ul.contextual-menu li a {
   padding: 0.72em 0.6em;
@@ -68,8 +71,11 @@ ul.contextual-menu li a:hover {
   background-color: #f8f8f8;
   text-decoration: none;
 }
-div.footer a,
-div.header a {
+ul.contextual-menu li a:hover i.fa {
+  color: #333333;
+}
+.footer a,
+.header a {
   border-top: 1px solid #e7e7e7;
   background-color: #f8f8f8;
   display: block;
@@ -79,8 +85,8 @@ div.header a {
   color: black;
   transition: background-color 0.2s ease;
 }
-div.footer a:hover,
-div.header a:hover {
+.footer a:hover,
+.header a:hover {
   background-color: #e7e7e7;
   text-decoration: none;
 }
