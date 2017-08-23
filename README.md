@@ -13,7 +13,11 @@ It uses grunt, bootstrap and less.
 ## Build instruction
 ```
 npm install
-grunt build
+grunt less
+```
+You can also use watch to trigger automatic build when changing files
+```
+grunt watch
 ```
 
 ## Pages available
