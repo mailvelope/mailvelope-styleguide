@@ -23,6 +23,7 @@ grunt watch
 ## Pages available
 
 ### Pre-installation
+* Landing page: {styleguide-base-url}/demo/landing-page.php
 * Contextual menu: {styleguide-base-url}/demo/contextual-menu.php?setup
 * Dashboard: {styleguide-base-url}/demo/dashboard-intermediary-before-install.php
 
