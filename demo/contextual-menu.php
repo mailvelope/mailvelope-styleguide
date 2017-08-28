@@ -21,7 +21,7 @@
 	<?php
 	$state = array_keys($_GET)[0];
 	$animated = false;
-	$height=300;
+	$height=301;
 	if (empty($state)) {
 		$state = 'normal';
 	}
@@ -33,7 +33,7 @@
 	}
 	?>
 	<?php if ($animated == true): ?>
-		<iframe src="contextual-menu-animated.php" frameborder="0" marginheight="0" marginwidth="0" width="230" height="300"></iframe>
+		<iframe src="contextual-menu-animated.php" frameborder="0" marginheight="0" marginwidth="0" width="230" height="<?php echo $height; ?>"></iframe>
 	<?php else: ?>
 		<iframe src="contextual-menu-wrapper.php?<?php echo $state; ?>" frameborder="0" marginheight="0" marginwidth="0" width="230" height="<?php echo $height; ?>"></iframe>
 	<?php endif; ?>

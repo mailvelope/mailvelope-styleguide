@@ -32,7 +32,7 @@
 				</div>
 				<div class="contextual-menu-wrapper advanced">
 					<?php
-					include( __DIR__ . '/includes/contextual-menu/advanced-state.php' );
+					include( __DIR__ . '/includes/contextual-menu/advanced-state-with-icons.php' );
 					?>
 				</div>
 			</div>
