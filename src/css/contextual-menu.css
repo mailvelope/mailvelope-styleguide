@@ -1,0 +1,111 @@
+.contextual-menu-header {
+  padding: 0.2em 0;
+}
+.contextual-menu-header .mailvelope-logo {
+  float: left;
+  width: 100px;
+  height: 27px;
+  background: 2px 5px no-repeat url(../img/maivelope-logo.svg);
+  background-color: rgba(0, 0, 0, 0);
+}
+.contextual-menu-header .nav-right {
+  float: right;
+  padding: 7px 0.6em 6px 0;
+  font-size: 0.9em;
+}
+.contextual-menu-header .nav-right a {
+  color: #555555;
+}
+.contextual-menu-container-slide-container {
+  position: relative;
+  overflow: hidden;
+  width: 230px;
+}
+.contextual-menu-container-slide-container .contextual-menu-container-slide {
+  width: 460px;
+}
+.contextual-menu-container-slide-container .contextual-menu-container-slide .primary {
+  display: inline-block;
+  width: 230px;
+}
+.contextual-menu-container-slide-container .contextual-menu-container-slide .advanced {
+  display: inline-block;
+  width: 230px;
+}
+ul.contextual-menu {
+  padding: 0;
+  margin: 0;
+}
+ul.contextual-menu li {
+  list-style-type: none;
+  margin: 0;
+  /** Version of the advanced menu with icon **/
+}
+ul.contextual-menu li.item-big a {
+  padding: 1.4em 0.6em;
+}
+ul.contextual-menu li.item-big a p {
+  float: left;
+  padding-left: 1%;
+  width: 78%;
+}
+ul.contextual-menu li.item-big a i.fa {
+  text-align: center;
+  float: right;
+  width: 20%;
+  font-size: 2em;
+  color: #888;
+  margin-top: .125em;
+}
+ul.contextual-menu li.with-icon a {
+  padding: 0.5em 0.6em;
+}
+ul.contextual-menu li.with-icon a p {
+  float: left;
+  padding: 0.23em 0 0.23em 1%;
+  width: 78%;
+}
+ul.contextual-menu li.with-icon a i.fa {
+  text-align: center;
+  float: right;
+  width: 12%;
+  font-size: 1.3em;
+  color: #888;
+  margin-top: .125em;
+}
+ul.contextual-menu li a {
+  padding: 0.72em 0.6em;
+  border-top: 1px solid #e7e7e7;
+  display: block;
+  color: #555555;
+  transition: background-color 0.2s ease;
+}
+ul.contextual-menu li a p {
+  padding: 0 1em 0 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+ul.contextual-menu li a:hover {
+  color: #333333;
+  background-color: #f8f8f8;
+  text-decoration: none;
+}
+ul.contextual-menu li a:hover i.fa {
+  color: #333333;
+}
+.footer a,
+.header a {
+  border-top: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
+  display: block;
+  padding: 0.6em 0.6em;
+  text-align: center;
+  font-size: 0.9em;
+  color: black;
+  transition: background-color 0.2s ease;
+}
+.footer a:hover,
+.header a:hover {
+  background-color: #e7e7e7;
+  text-decoration: none;
+}

@@ -1,0 +1,638 @@
+/**
+ * Mailvelope - secure email with OpenPGP encryption for Webmail
+ * Copyright (C) 2015 Mailvelope GmbH
+ */
+.ext-color-pdf {
+  background-color: #ad1e24 !important;
+}
+.ext-color-html {
+  background-color: #ad1e24 !important;
+}
+.ext-color-htm {
+  background-color: #ad1e24 !important;
+}
+.ext-color-jpg {
+  background-color: #4ba5cb !important;
+}
+.ext-color-jpeg {
+  background-color: #4ba5cb !important;
+}
+.ext-color-png {
+  background-color: #4ba5cb !important;
+}
+.ext-color-bmp {
+  background-color: #4ba5cb !important;
+}
+.ext-color-tif {
+  background-color: #4ba5cb !important;
+}
+.ext-color-tiff {
+  background-color: #4ba5cb !important;
+}
+.ext-color-psd {
+  background-color: #4ba5cb !important;
+}
+.ext-color-txt {
+  background-color: #427bba !important;
+}
+.ext-color-doc {
+  background-color: #427bba !important;
+}
+.ext-color-docx {
+  background-color: #427bba !important;
+}
+.ext-color-rtf {
+  background-color: #427bba !important;
+}
+.ext-color-mov {
+  background-color: #bc4fa9 !important;
+}
+.ext-color-avi {
+  background-color: #bc4fa9 !important;
+}
+.ext-color-wmv {
+  background-color: #bc4fa9 !important;
+}
+.ext-color-mpeg {
+  background-color: #bc4fa9 !important;
+}
+.ext-color-flv {
+  background-color: #bc4fa9 !important;
+}
+.ext-color-xvid {
+  background-color: #bc4fa9 !important;
+}
+.ext-color-mp3 {
+  background-color: #563b8c !important;
+}
+.ext-color-wav {
+  background-color: #563b8c !important;
+}
+.ext-color-zip {
+  background-color: #e7ab30 !important;
+}
+.ext-color-rar {
+  background-color: #e7ab30 !important;
+}
+.ext-color-xml {
+  background-color: #d6732c !important;
+}
+.ext-color-ppt {
+  background-color: #d6732c !important;
+}
+.ext-color-pptx {
+  background-color: #d6732c !important;
+}
+.ext-color-xls {
+  background-color: #6ea64e !important;
+}
+.ext-color-xlsx {
+  background-color: #6ea64e !important;
+}
+.ext-color-exe {
+  background-color: #4b4a4a !important;
+}
+.attachmentButton {
+  display: inline-flex;
+  align-items: center;
+  color: #5E5E5E;
+  font-weight: normal;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  padding: 3px;
+  margin-bottom: 3px;
+  background: #efefef linear-gradient(to bottom, #ffffff, #ececec);
+  border: 1px solid #cbcbcb;
+  border-radius: 4px;
+  cursor: default;
+  margin-right: 5px;
+}
+a.attachmentButton {
+  text-decoration: none;
+  cursor: pointer;
+}
+.attachmentExtension {
+  display: inline-block;
+  font-weight: normal !important;
+  border-radius: 2px;
+  background-color: #8a8a8a;
+  color: #ffffff;
+  padding: 1px 3px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.attachmentFilename {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-block;
+  margin: 0 3px;
+}
+.removeAttachment {
+  display: inline-block;
+  border-radius: 2px;
+  color: white;
+  background-color: #a3a3a3;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 2px;
+  position: inherit;
+  top: 0;
+  font-size: 12px;
+}
+/* Overwriting some Bootstrap */
+textarea.form-control:active,
+textarea.form-control:focus {
+  border-color: #aaaaaa !important;
+  box-shadow: none;
+}
+.btn {
+  min-width: 70px;
+}
+.btn,
+.btn-link,
+.btn:active,
+.btn-link:active,
+.btn:focus,
+.btn-link:focus {
+  outline: none !important;
+}
+/**
+ * Setup page
+ */
+.jumbotron .well p {
+  font-size: inherit;
+  margin-bottom: 20px;
+}
+.keyring_setup_message {
+  display: none;
+}
+.keyring_setup_message.active {
+  display: block;
+}
+/**
+ * Secure background
+ */
+.jumbotron.secureBackground {
+  padding: 10px;
+}
+.jumbotron.secureBackground > div {
+  margin-bottom: 10px;
+}
+.secureBgndSettingsBtn {
+  min-width: 10px !important;
+  margin-right: 0;
+  width: 32px;
+  height: 32px;
+  padding: 0 !important;
+  margin-bottom: 3px;
+  color: transparent;
+  background: radial-gradient(ellipse at center, #f5f5f5 0%, #f5f5f5 55%, rgba(245, 245, 245, 0) 75%, rgba(245, 245, 245, 0) 100%);
+}
+.secureBgndSettingsBtn:hover {
+  color: transparent;
+}
+/* General icon for secure button */
+.lockBtnIcon,
+.lockBtnIcon:active {
+  margin: 0px;
+  width: 28px;
+  height: 28px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJzZWNCZ25kIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSI3MnB4IiBoZWlnaHQ9IjcycHgiIHZpZXdCb3g9IjAgMCAyNyAyNyI+PHBhdGggdHJhbnNmb3JtPSJyb3RhdGUoMCAxNCAxNCkiIHN0eWxlPSJmaWxsOiAjODA4MDgwOyIgZD0ibSAxMy45NjM2NDksMjUuOTAxNzU0IGMgLTQuNjkwMDAwNSwwIC04LjUwMDAwMDUsLTMuNzggLTguNTAwMDAwNSwtOC40NCAwLC0xLjY0IDAuNDcsLTMuMTcgMS4yOSwtNC40NyBWIDkuMDQxNzU0NiBjIDAsLTMuOTM5OTk5MiAzLjIzLC03LjE0OTk5OTIgNy4yMDAwMDA1LC03LjE0OTk5OTIgMy45NywwIDcuMiwzLjIxIDcuMiw3LjE0OTk5OTIgdiAzLjk0OTk5OTQgYyAwLjgyLDEuMyAxLjMsMi44MyAxLjMsNC40OCAwLDQuNjUgLTMuOCw4LjQzIC04LjQ5LDguNDMgeiBtIC0xLjM1LC03Ljk5IHYgMy4zMyBoIDAgYyAwLDAuMDIgMCwwLjAzIDAsMC4wNSAwLDAuNzQgMC42MSwxLjM0IDEuMzUsMS4zNCAwLjc1LDAgMS4zNSwtMC42IDEuMzUsLTEuMzQgMCwtMC4wMiAwLC0wLjAzIDAsLTAuMDUgaCAwIHYgLTMuMzMgYyAwLjYzLC0wLjQzIDEuMDQsLTEuMTUgMS4wNCwtMS45NyAwLC0xLjMyIC0xLjA3LC0yLjM4IC0yLjQsLTIuMzggLTEuMzIsMCAtMi40LDEuMDcgLTIuNCwyLjM4IDAuMDEsMC44MiAwLjQzLDEuNTQgMS4wNiwxLjk3IHogbSA2LjI5LC04Ljg2OTk5OTQgYyAwLC0yLjcwOTk5OTIgLTIuMjIsLTQuOTA5OTk5MiAtNC45NSwtNC45MDk5OTkyIC0yLjczLDAgLTQuOTUwMDAwNSwyLjIgLTQuOTUwMDAwNSw0LjkwOTk5OTIgViAxMC42MTE3NTQgQyAxMC4zOTM2NDksOS42MjE3NTQ0IDEyLjEwMzY0OSw5LjAzMTc1NDYgMTMuOTUzNjQ5LDkuMDMxNzU0NiBjIDEuODUsMCAzLjU1LDAuNTg5OTk5OCA0Ljk0LDEuNTc5OTk5NCBsIDAuMDEsLTEuNTY5OTk5NCB6IiAvPjwvc3ZnPg==");
+}
+.btn-digital-signature,
+.txt-digital-signature {
+  color: #717171;
+  padding: .1em .3em;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  font: 11px Verdana, sans-serif;
+}
+.btn-digital-signature:hover {
+  text-decoration: underline;
+}
+/* Clearfix */
+.jumbotron.secureBackground:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+/**
+ * Smallscreen optimization
+ */
+@media (max-width: 767px) {
+  /* Responsive table */
+  .table-responsive-custom {
+    overflow: auto;
+    width: 100%;
+  }
+  .table-responsive-custom th:nth-child(4),
+  .table-responsive-custom td:nth-child(4),
+  .table-responsive-custom th:nth-child(5),
+  .table-responsive-custom td:nth-child(5) {
+    display: none;
+  }
+}
+.landingpage .illustration i.fa {
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(45deg);
+  /* Opera */
+  font-size: 9em;
+  color: #e7e7e7;
+}
+.landingpage h1 {
+  margin-bottom: 1em;
+}
+.landingpage p {
+  font-size: 2.2em;
+  margin-bottom: 0.8em;
+}
+/**
+ * Copyright (C) 2016 Mailvelope GmbH
+ * Licensed under the GNU Affero General Public License version 3
+ */
+html {
+  font-size: 100%;
+}
+.app {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+input[readonly] {
+  cursor: text !important;
+}
+.sidebar-nav {
+  padding: 9px 0;
+}
+.hero-unit.tab-content {
+  padding: 30px;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+.hero-unit li {
+  line-height: inherit;
+}
+.busy {
+  cursor: wait !important;
+}
+.navbar-brand {
+  font-family: 'Courgette', serif;
+}
+#displayKeys {
+  min-height: 300px;
+}
+#security .form-horizontal .control-label,
+#general .form-horizontal .control-label {
+  width: 280px;
+}
+#security .form-horizontal .controls,
+#general .form-horizontal .controls {
+  margin-left: 300px;
+}
+#security .form-group {
+  margin-bottom: 30px;
+}
+#pwdCacheTime {
+  font-family: monospace;
+  width: 50px;
+}
+#securityTokenPanel {
+  margin-right: -3px;
+  margin-left: -3px;
+  padding-bottom: 10px;
+  padding-left: 3px;
+}
+#securityTokenPanel:after {
+  content: ' ';
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+#securityTokenPanel input[type="range"] {
+  display: inline;
+  width: 200px;
+  margin: 20px 20px 20px 10px;
+  vertical-align: middle;
+}
+#securityBgndSliders {
+  width: 320px;
+  float: left;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+#securityBgndSliders label {
+  width: 85px;
+  text-align: right;
+}
+.previewContainer {
+  margin: 0 20px 0 20px;
+  float: left;
+  padding: 10px 20px 20px;
+  background-color: #FFF;
+}
+#previewArea {
+  height: 150px;
+  width: 300px;
+  border: 1px solid gray;
+  background-color: #f5f5f5;
+}
+#pwdCacheLabel {
+  padding-left: 0;
+}
+@media (max-width: 1200px) {
+  #securityBgndSliders {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  #securityBgndSliders label {
+    text-align: left;
+  }
+  .previewContainer {
+    margin-left: 0;
+  }
+}
+@media (max-width: 767px) {
+  #pwdCacheLabel {
+    padding-left: 20px;
+  }
+  #pwdCacheRadios1 {
+    margin-top: 9px;
+  }
+  #pwdCacheTime {
+    display: inline-block;
+  }
+}
+.list-group .active a {
+  color: white;
+}
+.list-group a:hover {
+  text-decoration: none;
+}
+@media (min-width: 1300px) {
+  .container {
+    width: 1270px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
+@media (min-width: 1500px) {
+  .container {
+    width: 1470px;
+  }
+}
+#watchList td {
+  vertical-align: middle;
+}
+.tableToolbar {
+  text-align: left;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+#watchListTable tr {
+  cursor: pointer;
+}
+.optionsTable {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.addedSiteFade {
+  -webkit-animation: pulse1 4s linear 1;
+  -moz-animation: pulse1 4s linear 1;
+  animation: pulse1 4s linear 1;
+}
+@-webkit-keyframes pulse1 {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  30% {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@-moz-keyframes pulse1 {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  30% {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@keyframes pulse1 {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  30% {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+#settingsPanel {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  /*background-color: white;*/
+}
+#keyringList {
+  margin-top: -8px;
+  width: 100%;
+}
+#keyringSwitcherLabel {
+  width: 94%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+#keyringSwitcherCaret {
+  margin-top: 8px;
+}
+#keyring li.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
+}
+#keyring a.flex-item {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  min-width: 30px;
+  white-space: normal;
+  cursor: pointer;
+}
+.keyRingName {
+  word-wrap: break-word;
+}
+.deleteKeyRing {
+  max-width: 40px;
+  background-color: white;
+  padding-right: 25px !important;
+  padding-left: 15px !important;
+}
+.deleteKeyRing:hover {
+  background-color: white !important;
+  color: #808080 !important;
+}
+/* watchlist on/off switch */
+.onoffswitch {
+  position: relative;
+  width: 70px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+  display: none;
+}
+.onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #666666;
+  border-radius: 5px;
+}
+.onoffswitch-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before,
+.onoffswitch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 24px;
+  padding: 0;
+  line-height: 24px;
+  font-size: 16px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+  content: "I";
+  padding-left: 10px;
+  background-color: #337ab7;
+  color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+  content: "O";
+  padding-right: 10px;
+  background-color: #F8F8F8;
+  color: #666666;
+  text-align: right;
+}
+.onoffswitch-switch {
+  display: block;
+  width: 35px;
+  margin: 0;
+  background: #FFFFFF;
+  border: 1px solid #666666;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 35px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0;
+}
+.settings-logo {
+  width: 130px;
+  background: 27px 14px no-repeat url(../img/maivelope-logo.svg);
+}
+/* Key Import */
+#importKey .label-subtitle {
+  margin-bottom: 5px;
+}
+/* Key Generate */
+#generateKey .form-inline > * {
+  margin: 5px 3px;
+}
+/* Navbar */
+.navbar-fixed-top > .container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* Third party logo */
+.tab-pane > h3 {
+  vertical-align: middle;
+}
+.tab-pane > h3:after {
+  content: ' ';
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0;
+}
+.third-party-logo {
+  width: 192px;
+  height: 96px;
+  float: right;
+  display: block;
+  vertical-align: middle;
+  margin-top: -20px;
+}
+/* Footer */
+footer.row {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin: 0 15px;
+  clear: both;
+}
+footer > p.col-md-6 {
+  padding-left: 0;
+}
+#version {
+  padding-right: 0;
+  text-align: right;
+}
+.lockBtnIcon {
+  width: 30px !important;
+  height: 30px;
+  margin-right: -44px;
+}
+.form-control-clear {
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+}

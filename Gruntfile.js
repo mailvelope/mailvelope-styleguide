@@ -30,12 +30,24 @@ module.exports = function(grunt) {
           ext: '.css'
         }]
       },
+      development_react: {
+        options: {
+          paths: ['assets/css']
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/less/pages',
+          src: ['*.less'],
+          dest: 'src/css/',
+          ext: '.css'
+        }]
+      },
     },
 
     // Watch for changes and rebuild
     watch: {
       data: {
-        files: ['less/**/*.*'],
+        files: ['less/**/*.*', 'src/less/**/*.*'],
         tasks: ['less'],
         options: {spawn: false}
       },
