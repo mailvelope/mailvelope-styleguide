@@ -21,6 +21,7 @@
 		<div class="col-md-10">
 			<h1>Welcome to Mailvelope!</h1>
 			<p>Click on the mailvelope icon <span class="mailvelopeicon"><img src="../img/cryptography-icon48.png" height="25px"></img></span> in your browser toolbar to begin with the configuration. </p>
+			<p><img src="../img/mailvelope_screenshot.png" alt="Illustration of clicking on the mailvelope icon" class="gif-illustration" /></p>
 			<p>Check out the <a href="#">online help</a> for more information.</p>
 		</div>
 		<div class="col-md-2">
