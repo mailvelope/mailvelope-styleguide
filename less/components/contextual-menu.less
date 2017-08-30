@@ -3,7 +3,9 @@
 @contextual-menu-width: 230px;
 
 .contextual-menu-header {
-  padding:0.2em 0;
+  padding:3px 0;
+  height: 37px;
+
   .mailvelope-logo {
     float: left;
     width: 100px;
@@ -15,7 +17,7 @@
   .nav-right {
     float: right;
     padding: 7px @side-padding 6px 0;
-    font-size: 0.9em;
+    font-size: 12.6px;
 
     a {
       color: @grey-dark;
@@ -45,10 +47,13 @@ ul.contextual-menu {
   li {
     list-style-type: none;
     margin: 0;
+    font-size:1em;
 
     &.item-big {
+      height:77px;
+
       a {
-        padding: 1.4em @side-padding;
+        padding: 19.5px @side-padding;
 
         p {
           float: left;
@@ -68,8 +73,10 @@ ul.contextual-menu {
 
     /** Version of the advanced menu with icon **/
     &.with-icon {
+      height: 39.5px;
       a {
-        padding: 0.5em 0.6em;
+        padding: 7px 0.6em;
+        height:39.5px;
 
         p {
           float: left;
@@ -97,7 +104,7 @@ ul.contextual-menu {
       p {
         padding:0 1em 0 0;
         margin:0;
-        font-size: 0.9em;
+        font-size: 13px;
       }
 
       &:hover {
@@ -116,12 +123,13 @@ ul.contextual-menu {
 .footer,
 .header {
   a {
+    height:33px;
     border-top: 1px solid @grey-selected;
     background-color: @grey-light;
     display: block;
-    padding:0.6em @side-padding;
+    padding:7px @side-padding;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 12.6px;
     color: black;
     transition: @select-transition;
 
