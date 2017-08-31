@@ -1,0 +1,170 @@
+/**
+ * Copyright (C) 2016 Mailvelope GmbH
+ * Licensed under the GNU Affero General Public License version 3
+ */
+.keyDetails .tab-pane {
+  padding: 10px;
+}
+.key-advanced-open::before {
+  content: '<< ';
+}
+
+.key-advanced-closed::after {
+  content: ' >>';
+}
+#keyType {
+  vertical-align: middle;
+  width: 200px;
+}
+
+.keyType-selector {
+  float: right;
+  margin-right: .8em;
+  font-size: 13px;
+}
+
+#keyringFilterBtn {
+  width: auto;
+  display: inline-block;
+}
+
+#keyRingTable tr {
+  cursor: pointer;
+}
+
+#keyRingTable td {
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1200px) {
+  #keyRingTable td {
+    max-width: 90px;
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: 1300px) {
+  #keyRingTable td {
+    max-width: 130px;
+    word-wrap: break-word;
+  }
+}
+
+.monospaced {
+  font-family: monospace;
+  white-space: nowrap;
+}
+
+@media (max-width: 1000px) {
+  .monospaced {
+    white-space: normal;
+    word-wrap: break-word;
+  }
+}
+
+button.keyDetailsBtn, button.keyDeleteBtn {
+  min-width: 30px;
+}
+
+.publicKey {
+  background: no-repeat url(../img/public-key.png);
+}
+
+.keyPair {
+  background: no-repeat url(../img/private-key.png);
+}
+#encrypting .help-block {
+  font-size: 14px;
+}
+
+#encrypting .alert {
+  font-size: 14px;
+  margin: 15px 0 0;
+}
+
+.itemSelection {
+  display: block;
+  height: 300px;
+  border: thin dashed #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: .5em;
+}
+.recipientButton {
+  display: inline-flex;
+  border: thin solid silver;
+  padding: 0.2em;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 0.9em;
+  background: #efefef linear-gradient(to bottom,#ffffff,#ececec);
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
+.recipientButton span.glyphicon {
+  color: green;
+  font-size: 1.5em;
+}
+.recipientButton > div {
+  margin: 0 0.5em;
+  line-height: 1;
+  max-width: 200px;
+}
+.recipientButton > div b,.recipientButton > div small {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.recipientButton button {
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: #a3a3a3;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 2px;
+  position: inherit;
+  top: 0;
+  font-size: 12px;
+}
+
+.attachmentButton .secure-icon {
+  margin: 0 0.25em;
+  line-height: 1.5em;
+}
+
+#encrypt_fileDownloadPanel .waiting,
+#decrypt_fileDownloadPanel .waiting {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#encrypt_fileDownloadPanel .m-spinner,
+#decrypt_fileDownloadPanel .m-spinner {
+  margin: inherit;
+}
+
+.adv-key-gen-options .form-group {
+  width: 62%;
+}
+
+.key-expiration-group > div {
+  display: block;
+}
+#genKeyWait .modal-footer {
+  text-align: left;
+}
+
+#genKeyWait .wait-indicator {
+  background: no-repeat url(../img/progress-bar.gif);
+  width: 230px;
+  height: 19px;
+}

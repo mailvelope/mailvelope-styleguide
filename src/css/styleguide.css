@@ -1,0 +1,32 @@
+.styleguide .dashboard .header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+.styleguide .dashboard .logo {
+  height: 60px;
+}
+.styleguide .dashboard .container .col-md-3 {
+  padding-left: 3em;
+}
+.styleguide-back-home {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: linear-gradient(to top left, #fff 0%, #fff 50%, #000 50%, #999 100%);
+  text-align: left;
+}
+.styleguide-back-home a {
+  font-size: 1.5em;
+  margin-left: 0.3em;
+  color: #FFF;
+}
+.styleguide-back-home a:hover {
+  color: #FFF;
+}
