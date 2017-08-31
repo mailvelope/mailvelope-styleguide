@@ -1,5 +1,6 @@
 .contextual-menu-header {
-  padding: 0.2em 0;
+  padding: 3px 0;
+  height: 37px;
 }
 .contextual-menu-header .mailvelope-logo {
   float: left;
@@ -11,7 +12,7 @@
 .contextual-menu-header .nav-right {
   float: right;
   padding: 7px 0.6em 6px 0;
-  font-size: 0.9em;
+  font-size: 12.6px;
 }
 .contextual-menu-header .nav-right a {
   color: #555555;
@@ -39,10 +40,14 @@ ul.contextual-menu {
 ul.contextual-menu li {
   list-style-type: none;
   margin: 0;
+  font-size: 1em;
   /** Version of the advanced menu with icon **/
 }
+ul.contextual-menu li.item-big {
+  height: 77px;
+}
 ul.contextual-menu li.item-big a {
-  padding: 1.4em 0.6em;
+  padding: 19.5px 0.6em;
 }
 ul.contextual-menu li.item-big a p {
   float: left;
@@ -57,8 +62,12 @@ ul.contextual-menu li.item-big a i.fa {
   color: #888;
   margin-top: .125em;
 }
+ul.contextual-menu li.with-icon {
+  height: 39.5px;
+}
 ul.contextual-menu li.with-icon a {
-  padding: 0.5em 0.6em;
+  padding: 7px 0.6em;
+  height: 39.5px;
 }
 ul.contextual-menu li.with-icon a p {
   float: left;
@@ -83,7 +92,7 @@ ul.contextual-menu li a {
 ul.contextual-menu li a p {
   padding: 0 1em 0 0;
   margin: 0;
-  font-size: 0.9em;
+  font-size: 13px;
 }
 ul.contextual-menu li a:hover {
   color: #333333;
@@ -95,12 +104,13 @@ ul.contextual-menu li a:hover i.fa {
 }
 .footer a,
 .header a {
+  height: 33px;
   border-top: 1px solid #e7e7e7;
   background-color: #f8f8f8;
   display: block;
-  padding: 0.6em 0.6em;
+  padding: 7px 0.6em;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 12.6px;
   color: black;
   transition: background-color 0.2s ease;
 }

@@ -18,18 +18,6 @@ module.exports = function(grunt) {
 
     // Build the pages css
     less: {
-      development: {
-        options: {
-          paths: ['assets/css']
-        },
-        files: [{
-          expand: true,
-          cwd: 'less/pages',
-          src: ['*.less'],
-          dest: 'css/',
-          ext: '.css'
-        }]
-      },
       development_react: {
         options: {
           paths: ['assets/css']
@@ -47,7 +35,7 @@ module.exports = function(grunt) {
     // Watch for changes and rebuild
     watch: {
       data: {
-        files: ['less/**/*.*', 'src/less/**/*.*'],
+        files: ['src/less/**/*.*'],
         tasks: ['less'],
         options: {spawn: false}
       },

@@ -238,6 +238,12 @@ textarea.form-control:focus {
     display: none;
   }
 }
+.landingpage {
+  padding-top: 1em;
+}
+.landingpage .illustration {
+  text-align: right;
+}
 .landingpage .illustration i.fa {
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -250,11 +256,15 @@ textarea.form-control:focus {
   font-size: 9em;
   color: #e7e7e7;
 }
+.landingpage .illustration .gif-illustration {
+  width: 100%;
+  max-width: 780px;
+}
 .landingpage h1 {
   margin-bottom: 1em;
 }
 .landingpage p {
-  font-size: 2.2em;
+  font-size: 2em;
   margin-bottom: 0.8em;
 }
 /**
