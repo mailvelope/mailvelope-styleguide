@@ -2,35 +2,32 @@
 
 [![Build Status](https://travis-ci.org/mailvelope/mailvelope.svg?branch=master)](https://travis-ci.org/mailvelope/mailvelope)
 
-Mailvelope is a browser extension for Google Chrome and Firefox that allows secure email communication based on the OpenPGP standard. 
+Mailvelope is a browser extension for Google Chrome and Firefox that allows secure email communication based on the OpenPGP standard.
 It can be configured to work with arbitrary Webmail provider.
 
 ## Mailvelope Styleguide
 
 This project is a simple styleguide to visualize changes scheduled in Mailvelope UI in 2017.
-It uses grunt, bootstrap and less.
+It uses react, react-scripts, grunt, bootstrap and less.
 
 ## Build instruction
+Build the application
 ```
 npm install
-grunt less
+npm run build
 ```
-You can also use watch to trigger automatic build when changing files
+
+Follow the instructions given in the console.
+
+## Development instruction
+Watch any changes in less files to trigger an automatic build of the css.
 ```
 grunt watch
 ```
 
-## Pages available
+In another console start the application in development mode.
+```
+npm start
+```
 
-### Pre-installation
-* Landing page: {styleguide-base-url}/demo/landing-page.php
-* Contextual menu: {styleguide-base-url}/demo/contextual-menu.php?setup
-* Dashboard: {styleguide-base-url}/demo/dashboard-intermediary-before-install.php
-
-### Post-installation
-* Dashboard: {styleguide-base-url}/demo/dashboard.php
-* Contextual menu (animated): {styleguide-base-url}/demo/contextual-menu.php?animated
-* Contextual menu (static primary): {styleguide-base-url}/demo/contextual-menu.php
-* Contextual menu (static advanced): {styleguide-base-url}/demo/contextual-menu.php?advanced
-* Contextual menu (static advanced, variant with icons): {styleguide-base-url}/demo/contextual-menu.php?advanced-with-icons
-* Key management: {styleguide-base-url}/demo/key-management.php
+It should start the application in a browser, any changes in less files or in the application source code should refresh the browser automatically.
