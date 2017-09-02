@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import FooterApp from '../FooterApp';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-sortable/Contents/bootstrap-sortable.css';
@@ -12,43 +13,38 @@ class Dashboard extends Component {
         <div className="dashboard">
           <div className="col-md-12">
             <h3>Dashboard</h3>
-            <div className="alert alert-warning alert-dismissible col-md-12" role="alert">
-              <button type="button" className="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <strong>Warning!</strong> Something happened here. Pay attention to what is inside.
-            </div>
           </div>
           <div className="col-md-3">
-            <a className="dashboard-item" href="key-management.php">
+            <Link to="/app/Dashboard" className="dashboard-item">
               <i className="fa fa-key"></i>
               <span>Manage keys</span>
-            </a>
+            </Link>
           </div>
           <div className="col-md-3">
-            <a className="dashboard-item" href="#">
+            <Link to="/app/Dashboard" className="dashboard-item">
               <i className="fa fa-files-o"></i>
               <span>Encrypt and decrypt files</span>
-            </a>
+            </Link>
           </div>
           <div className="col-md-3">
-            <a className="dashboard-item" href="#">
+            <Link to="/app/Dashboard" className="dashboard-item">
               <i className="fa fa-eye"></i>
               <span>View security logs</span>
-            </a>
+            </Link>
           </div>
           <div className="col-md-3">
-            <a className="dashboard-item" href="#">
+            <Link to="/app/Dashboard" className="dashboard-item">
               <i className="fa fa-server"></i>
               <span>Manage email providers</span>
-            </a>
+            </Link>
           </div>
           <div className="col-md-3">
-            <a className="dashboard-item" href="#">
+            <a href="https://www.mailvelope.com/en/help" className="dashboard-item" target="_blank">
               <i className="fa fa-question-circle"></i>
               <span>Help</span>
             </a>
           </div>
         </div>
-        <FooterApp />
       </div>
     );
   }

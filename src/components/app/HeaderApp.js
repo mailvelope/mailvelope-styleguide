@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class HeaderApp extends Component {
   render() {
@@ -13,7 +14,7 @@ class HeaderApp extends Component {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <div className="navbar-brand settings-logo"></div>
+              <Link to="/app/Dashboard" className="navbar-brand settings-logo"></Link>
             </div>
             <div className="collapse navbar-collapse bs-navbar-collapse">
               <ul className="nav navbar-nav">

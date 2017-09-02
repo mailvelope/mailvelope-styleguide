@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 
     // Build the pages css
     less: {
-      development_react: {
+      pages: {
         options: {
           paths: ['assets/css']
         },
@@ -27,6 +27,18 @@ module.exports = function(grunt) {
           cwd: 'src/less/pages',
           src: ['*.less'],
           dest: 'src/css/',
+          ext: '.css'
+        }]
+      },
+      components: {
+        options: {
+          paths: ['assets/css']
+        },
+        files: [{
+          expand: true,
+          cwd: 'src/less/components',
+          src: ['*.less'],
+          dest: 'src/css/components',
           ext: '.css'
         }]
       },

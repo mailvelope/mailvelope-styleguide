@@ -8,7 +8,6 @@
 .key-advanced-open::before {
   content: '<< ';
 }
-
 .key-advanced-closed::after {
   content: ' >>';
 }
@@ -16,73 +15,61 @@
   vertical-align: middle;
   width: 200px;
 }
-
 .keyType-selector {
   float: right;
   margin-right: .8em;
   font-size: 13px;
 }
-
 #keyringFilterBtn {
   width: auto;
   display: inline-block;
 }
-
 #keyRingTable tr {
   cursor: pointer;
 }
-
 #keyRingTable td {
   vertical-align: middle;
   word-wrap: break-word;
 }
-
 @media (max-width: 1200px) {
   #keyRingTable td {
     max-width: 90px;
     word-wrap: break-word;
   }
 }
-
 @media (max-width: 1300px) {
   #keyRingTable td {
     max-width: 130px;
     word-wrap: break-word;
   }
 }
-
 .monospaced {
   font-family: monospace;
   white-space: nowrap;
 }
-
 @media (max-width: 1000px) {
   .monospaced {
     white-space: normal;
     word-wrap: break-word;
   }
 }
-
-button.keyDetailsBtn, button.keyDeleteBtn {
+button.keyDetailsBtn,
+button.keyDeleteBtn {
   min-width: 30px;
 }
-
 .publicKey {
   background: no-repeat url(../img/public-key.png);
 }
-
 .keyPair {
   background: no-repeat url(../img/private-key.png);
 }
 #encrypting .help-block {
   font-size: 14px;
 }
-
 #encrypting .alert {
   font-size: 14px;
   margin: 15px 0 0;
 }
-
 .itemSelection {
   display: block;
   height: 300px;
@@ -98,7 +85,7 @@ button.keyDetailsBtn, button.keyDeleteBtn {
   border-radius: 5px;
   align-items: center;
   font-size: 0.9em;
-  background: #efefef linear-gradient(to bottom,#ffffff,#ececec);
+  background: #efefef linear-gradient(to bottom, #ffffff, #ececec);
   margin-right: .5em;
   margin-bottom: .5em;
 }
@@ -111,7 +98,8 @@ button.keyDetailsBtn, button.keyDeleteBtn {
   line-height: 1;
   max-width: 200px;
 }
-.recipientButton > div b,.recipientButton > div small {
+.recipientButton > div b,
+.recipientButton > div small {
   display: block;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -128,12 +116,10 @@ button.keyDetailsBtn, button.keyDeleteBtn {
   top: 0;
   font-size: 12px;
 }
-
 .attachmentButton .secure-icon {
   margin: 0 0.25em;
   line-height: 1.5em;
 }
-
 #encrypt_fileDownloadPanel .waiting,
 #decrypt_fileDownloadPanel .waiting {
   position: absolute;
@@ -141,28 +127,24 @@ button.keyDetailsBtn, button.keyDeleteBtn {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 #encrypt_fileDownloadPanel .m-spinner,
 #decrypt_fileDownloadPanel .m-spinner {
   margin: inherit;
 }
-
 .adv-key-gen-options .form-group {
   width: 62%;
 }
-
 .key-expiration-group > div {
   display: block;
 }
 #genKeyWait .modal-footer {
   text-align: left;
 }
-
 #genKeyWait .wait-indicator {
   background: no-repeat url(../img/progress-bar.gif);
   width: 230px;

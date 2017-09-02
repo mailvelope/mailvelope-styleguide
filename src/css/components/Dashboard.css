@@ -1,0 +1,35 @@
+.dashboard a.dashboard-item {
+  display: block;
+  text-align: center;
+  margin-bottom: 2em;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 1em 0 0 0;
+  transition: background-color 0.3s ease;
+}
+.dashboard a.dashboard-item:hover {
+  background-color: #fafafa;
+  text-decoration: none;
+}
+.dashboard a.dashboard-item:hover span {
+  background-color: #f3f3f3;
+}
+.dashboard a.dashboard-item:hover i.fa {
+  color: #555555;
+}
+.dashboard a.dashboard-item i.fa {
+  font-size: 5em;
+  margin: .25em;
+  color: #888;
+}
+.dashboard a.dashboard-item span {
+  display: block;
+  margin-top: 1em;
+  color: #555555;
+  padding: 0.5em;
+  background-color: #f8f8f8;
+  transition: background-color 0.3s ease;
+}

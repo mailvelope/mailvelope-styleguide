@@ -1,0 +1,29 @@
+.landingpage {
+  padding-top: 1em;
+}
+.landingpage .illustration {
+  text-align: right;
+}
+.landingpage .illustration i.fa {
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome */
+  -o-transform: rotate(45deg);
+  /* Opera */
+  font-size: 9em;
+  color: #e7e7e7;
+}
+.landingpage .illustration .gif-illustration {
+  width: 100%;
+  max-width: 780px;
+}
+.landingpage h1 {
+  margin-bottom: 1em;
+}
+.landingpage p {
+  font-size: 2em;
+  margin-bottom: 0.8em;
+}
