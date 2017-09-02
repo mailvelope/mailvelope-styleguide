@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import HeaderApp from '../HeaderApp';
 import FooterApp from '../FooterApp';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-sortable/Contents/bootstrap-sortable.css';
@@ -10,6 +11,7 @@ class Dashboard extends Component {
   render() {
     return (
       <div className="container">
+        <HeaderApp />
         <div className="dashboard">
           <div className="col-md-12">
             <h3>Dashboard</h3>

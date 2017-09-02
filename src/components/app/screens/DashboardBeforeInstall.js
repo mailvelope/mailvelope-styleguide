@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HeaderApp from '../HeaderApp';
 import FooterApp from '../FooterApp';
 import Tether from 'tether/dist/js/tether';
 import Shepherd from 'tether-shepherd/dist/js/shepherd';
@@ -43,6 +44,7 @@ class DashboardBeforeInstall extends Component {
   render() {
     return (
       <div className="container">
+        <HeaderApp />
         <div className="shepherd-backdrop"></div>
         <div className="dashboard">
           <div className="col-md-12">

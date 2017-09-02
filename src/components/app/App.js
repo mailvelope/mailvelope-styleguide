@@ -9,7 +9,6 @@ class App extends Component {
     return (
       <div className="app">
         <HeaderStyleguide />
-        <HeaderApp />
         <Route exact path="/app/:screen" component={AppRouter} />
       </div>
     );
