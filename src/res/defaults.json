@@ -1,0 +1,253 @@
+{
+  "version": "@@mvelo_version",
+  "watch_list": [
+    {
+      "active": true,
+      "site": "GMX",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.gmx.net",
+          "api": true
+        },
+        {
+          "scan": true,
+          "frame": "*.gmx.com",
+          "api": true
+        },
+        {
+          "scan": true,
+          "frame": "*.gmx.co.uk",
+          "api": true
+        },
+        {
+          "scan": true,
+          "frame": "*.gmx.fr",
+          "api": true
+        },
+        {
+          "scan": true,
+          "frame": "*.gmx.es",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "WEB.DE",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.web.de",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "mail.google.com",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.mail.google.com",
+          "api": false
+        },
+        {
+          "scan": true,
+          "frame": "*.inbox.google.com",
+          "api": false
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "mail.live.com",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.mail.live.com",
+          "api": false
+        },
+        {
+          "scan": true,
+          "frame": "*.outlook.live.com",
+          "api": false
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "mail.riseup.net",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.riseup.net",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "mail.yahoo.com",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.mail.yahoo.com",
+          "api": false
+        },
+        {
+          "scan": true,
+          "frame": "*.mail.yahoo.net",
+          "api": false
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "posteo.de",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.posteo.de",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "mailbox.org",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.office.mailbox.org",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "mail.ru",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.mail.ru",
+          "api": false
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "1und1 De-Mail",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.de-mail.1und1.de",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "GMX De-Mail",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.de-mail.gmx.net",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "Telekom De-Mail",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.de-mail.t-online.de",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "T-Systems De-Mail",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.de-mail.t-systems.de",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "WEB.DE De-Mail",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.de-mail.web.de",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "FP Mentana-Claimsoft De-Mail",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.fp-demail.de",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "Mailvelope Demo",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.demo.mailvelope.com",
+          "api": true
+        }
+      ]
+    },
+    {
+      "active": true,
+      "site": "Zoho",
+      "frames": [
+        {
+          "scan": true,
+          "frame": "*.mail.zoho.com",
+          "api": false
+        }
+      ]
+    }
+  ],
+  "preferences": {
+    "security": {
+      "display_decrypted": "inline",
+      "secureBgndColor": "#f5f5f5",
+      "secureBgndIconColor": "#e9e9e9",
+      "secureBgndColorId": 0,
+      "password_cache": true,
+      "password_timeout": 30
+    },
+    "general": {
+      "editor_type": "plain",
+      "auto_add_primary": true,
+      "auto_sign_msg": false
+    },
+    "keyserver": {
+      "hkp_base_url": "https://keyserver.ubuntu.com",
+      "hkp_server_list": [
+        "https://keyserver.ubuntu.com",
+        "http://pool.sks-keyservers.net:11371",
+        "https://pgp.mit.edu",
+        "https://keys.mailvelope.com"
+      ],
+      "mvelo_tofu_lookup": true
+    },
+    "main_active": true
+  }
+}
