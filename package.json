@@ -8,12 +8,6 @@
   },
   "license": "AGPL-3.0",
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-router-dom": "^4.1.2",
-    "react-scripts": "1.0.11",
-    "react-jsx-parser": "1.1.2",
-
     "bootstrap": "^3.3.7",
     "bootstrap-sortable": "drvic10k/bootstrap-sortable#0df36e9",
     "font-awesome": "^4.7.0",
@@ -21,6 +15,12 @@
     "grunt-contrib-less": "^1.4.1",
     "grunt-contrib-watch": "^1.0.0",
     "jquery": "^3.2.1",
+    "less": "^2.7.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-jsx-parser": "1.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-scripts": "1.0.11",
     "tether": "^1.4.0",
     "tether-shepherd": "^1.8.1"
   },

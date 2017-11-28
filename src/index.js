@@ -11,7 +11,7 @@ ReactDOM.render((
     <HashRouter>
       <div>
         <Route path="/action-menu" component={ActionMenu} />
-        <Route path="/action-menu" component={ActionMenuDe} />
+        <Route path="/action-menu-german" component={ActionMenuDe} />
     </div>
     </HashRouter>
 ), document.getElementById('root'));

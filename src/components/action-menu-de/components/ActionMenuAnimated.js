@@ -12,12 +12,14 @@ import $ from 'jquery';
 class ActionMenuAnimated extends Component {
   showBaseOptions() {
     $('.action-menu-container-slide').animate({marginLeft: "0px"}, 200);
+    $('div.action-menu').css('height', 300);
   }
 
   showAdvancedOptions() {
     $('.action-menu-container-slide').animate({marginLeft: "-230px"}, 200);
+      var realHeight = $('div.action-menu')[0].scrollHeight;
+      $('div.action-menu').css('height', realHeight);
   }
-
   render() {
     return (
       <div className="action-menu-container-slide-container">
